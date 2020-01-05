@@ -76,7 +76,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             self.yLabel.text = String(format: "%.2f", yDistance) + "m"
             self.zLabel.text = String(format: "%.2f", zDistance) + "m"
             self.distance.text = String(format: "%.2f",
-                                        self.distanceTravelled(x: xDistance, y: yDistance, z: zDistance)) + "m" 
+                                        self.distanceTravelled(x: xDistance, y: yDistance, z: zDistance)) + "m"
         }
         
     }
